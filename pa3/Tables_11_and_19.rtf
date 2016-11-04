@@ -1,0 +1,197 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 11. Hospital_Data.csv\b0\fs22\par
+
+\pard\li720\sa200\sl276\slmult1 The Hospital_Data.csv table contains thirteen (13) fields. This table provides general\par
+Hospital information in response to a Hospital Compare search.\par
+
+\pard\sa200\sl276\slmult1 1. \b Provider Number: \b0 varchar (6) Lists the hospitals by their provider identification number.\par
+2. \b Hospital Name:\b0  varchar (50) Lists the name of the hospital.\par
+3. \b Address 1: \b0 varchar (50) Lists the first line of the street address of the hospital.\par
+4. \b Address 2: \b0 varchar (50) Lists the second line of the street address of the hospital.\par
+5\b . Address 3: \b0 varchar (50) Lists the third line of the street address of the hospital.\par
+6. \b City: \b0 varchar (28) Lists the city in which the hospital is located.\par
+7. \b State: \b0 varchar (2) Lists the 2 letter State code in which the hospital is located.\par
+8. \b ZIP Code: \b0 char (5) Lists the 5 digit numeric ZIP for the hospital.\par
+9. \b County Name: \b0 char (15) Lists the county in which the hospital is located.\par
+10. \b Phone Number: \b0 char (10) Lists the 10-digit numeric telephone number, including area\par
+\tab code, for the Hospital.\par
+11. \b Hospital Type:\b0  char (25) Lists the type of hospital. The values are:\par
+\tab a. Acute Care Hospital\par
+\tab b. Acute Care \f1\endash  VA Medical Center\par
+\tab c. Critical Access Hospital\par
+\tab d. Children\rquote s Hospital\par
+12. \b Hospital Owner: \b0 varchar (44) Lists the type of ownership the Hospital falls under. The\par
+values are:\par
+\tab a. Government \endash  Federal\par
+\tab b. Government \endash  Hospital District or Authority\par
+\tab c. Government \endash  Local\par
+\tab d. Government \endash  State\par
+\tab e. Proprietary\par
+\tab f. Voluntary non-profit \endash  Church\par
+\tab g. Voluntary non-profit \endash  Other\par
+\tab h. Voluntary non-profit \endash  Private\par
+\tab i. Not Available\par
+13. \b Emergency Services: \b0 char (3) Returns \ldblquote Yes\rdblquote  or \ldblquote No\rdblquote  to specify whether or not the hospital\par
+\f0\lang1033\tab\f1\lang9 provides emergency services.\par
+\par
+\b\f0\fs28\lang1033 obs\b0\f1\fs22\lang9\par
+
+\pard\li720\sa200\sl276\slmult1 The Outcome of Care Measures.csv table contains forty seven (47) fields. This table provides\f0\lang1033  \f1\lang9 each hospital\rquote s risk-adjusted 30-Day Death (mortality) and 30-Day Readmission category and\f0\lang1033  \f1\lang9 rate.\par
+
+\pard\sa200\sl276\slmult1 1. \b Provider Number: \b0 varchar (6) Lists the hospitals by their provider identification number.\par
+2. \b Hospital Name: \b0 varchar (50) Lists the name of the hospital.\par
+3. \b Address 1: \b0 varchar (50) Lists the first line of the street address of the hospital.\par
+4. \b Address 2: \b0 varchar (50) Lists the second line of the street address of the hospital.\par
+5. \b Address 3: \b0 varchar (50) Lists the third line of the street address of the hospital.\par
+6\b . City: \b0 varchar (28) Lists the city in which the hospital is located.\par
+7\b . State: \b0 varchar (2) Lists the 2 letter State code in which the hospital is located.\par
+8. \b ZIP Code: \b0 char (5) Lists the 5 digit numeric ZIP for the hospital.\par
+9. \b County Name:\b0  char (15) Lists the county in which the hospital is located.\par
+10. \b Phone Number: \b0 char (10) Lists the 10-digit numeric telephone number, including area\par
+\f0\lang1033\tab\f1\lang9 code, for the Hospital.\par
+11. \b Hospital 30-Day Death (Mortality) Rates from Heart Attack:\b0  Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+12. \b Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Heart\par
+\f0\lang1033\tab\f1\lang9 Attack: \b0 varchar (50) Lists the mortality and readmission category in which the\par
+\f0\lang1033\tab\f1\lang9 hospital falls. The values are:\par
+
+\pard\li720\sa200\sl276\slmult1\tab\bullet  Better than U.S. National Average\par
+\tab\bullet  No Different than U.S. National Average\par
+\tab\bullet  Worse than U.S. National Average\par
+\tab\bullet  Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 13. \b Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Attack:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+14. \b Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Attack:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+15. \b Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Attack:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (5) Lists the number of Medicare patients treated for Heart Attack by the\par
+Hospital.\par
+
+\pard\sa200\sl276\slmult1 16. \b Footnote - Hospital 30-Day Death (Mortality) Rates from Heart Attack: \b0 Lists the\par
+
+\pard\li720\sa200\sl276\slmult1 footnote value when appropriate, as related to the Heart Attack Outcome of Care at\par
+the hospital.\par
+
+\pard\sa200\sl276\slmult1 17. \b Hospital 30-Day Death (Mortality) Rates from Heart Failure: \b0 Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+18. \b Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Heart\par
+\f0\lang1033\tab\f1\lang9 Failure:\b0  varchar (50) Lists the mortality and readmission category in which the\par
+\f0\lang1033\tab\f1\lang9 hospital falls. The values are:\par
+
+\pard\li720\sa200\sl276\slmult1\tab a. Better than U.S. National Average\par
+\tab b. No Different than U.S. National Average\par
+\tab c. Worse than U.S. National Average\par
+\tab d. Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 19. \b Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart\par
+
+\pard\li720\sa200\sl276\slmult1 Failure: \b0 Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted\par
+rate.\par
+
+\pard\sa200\sl276\slmult1 20. \b Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart\par
+
+\pard\li720\sa200\sl276\slmult1 Failure: \b0 Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted\par
+rate.\par
+
+\pard\sa200\sl276\slmult1 21\b . Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Failure:\b0\par
+
+\pard\li720\sa200\sl276\slmult1 varchar (5) Lists the number of Medicare patients treated for Heart Failure by the\par
+Hospital.\par
+
+\pard\sa200\sl276\slmult1 22\b . Footnote - Hospital 30-Day Death (Mortality) Rates from Heart Failure\b0 : Lists the\par
+
+\pard\li720\sa200\sl276\slmult1 footnote value when appropriate, as related to the Heart Failure Outcome of Care at\par
+the hospital.\par
+
+\pard\sa200\sl276\slmult1 23. \b Hospital 30-Day Death (Mortality) Rates from Pneumonia:\b0  Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+24. \b Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Pneumonia:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (50) Lists the mortality and readmission category in which the hospital falls. The\par
+values are:\par
+
+\pard\li720\sa200\sl276\slmult1\tab\bullet  Better than U.S. National Average\par
+\tab\bullet  No Different than U.S. National Average\par
+\tab\bullet  Worse than U.S. National Average\par
+\tab\bullet  Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 25. \b Lower Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Pneumonia:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+26. \b Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Pneumonia:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+27. \b Number of Patients - Hospital 30-Day Death (Mortality) Rates from Pneumonia:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (5) Lists the number of Medicare patients treated for Pneumonia by the\par
+Hospital.\par
+
+\pard\sa200\sl276\slmult1 28. \b Footnote - Hospital 30-Day Death (Mortality) Rates from Pneumonia:\b0  Lists the\par
+
+\pard\li720\sa200\sl276\slmult1 footnote value when appropriate, as related to the Pneumonia Outcome of Care at\par
+the hospital.\par
+
+\pard\sa200\sl276\slmult1 29. \b Hospital 30-Day Readmission Rates from Heart Attack: \b0 Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+30. \b Comparison to U.S. Rate - Hospital 30-Day Readmission Rates from Heart Attack:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (50) Lists the mortality and readmission category in which the hospital falls.\par
+The values are:\par
+\tab\bullet  Better than U.S. National Average\par
+\tab\bullet  No Different than U.S. National Average\par
+\tab\bullet  Worse than U.S. National Average\par
+\tab\bullet  Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 32\b . Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Heart\par
+
+\pard\li720\sa200\sl276\slmult1 Attack: \b0 Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+
+\pard\sa200\sl276\slmult1 33. \b Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Heart\par
+\f0\lang1033\tab\f1\lang9 Attack:\b0  Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+34\b . Number of Patients - Hospital 30-Day Readmission Rates from Heart Attack: \b0 varchar\par
+\f0\lang1033\tab\f1\lang9 (5) Lists the number of Medicare patients treated for Heart Attack.\par
+35. \b Footnote - Hospital 30-Day Readmission Rates from Heart Attack: \b0 Lists the footnote\par
+\f0\lang1033\tab\f1\lang9 value when appropriate, as related to the Heart Attack Outcome of Care at the hospital.\par
+36. \b Hospital 30-Day Readmission Rates from Heart Failure: \b0 Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+37. \b Comparison to U.S. Rate - Hospital 30-Day Readmission Rates from Heart Failure:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (50) Lists the mortality and readmission category in which the hospital falls.\par
+The values are:\par
+\tab\bullet  Better than U.S. National Average\par
+\tab\bullet  No Different than U.S. National Average\par
+\tab\bullet  Worse than U.S. National Average\par
+\tab\bullet  Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 38. \b Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Heart\par
+\f0\lang1033\tab\f1\lang9 Failure:\b0  Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+39. \b Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Heart\par
+\f0\lang1033\tab\f1\lang9 Failure:\b0  Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+40. \b Number of Patients - Hospital 30-Day Readmission Rates from Heart Failure: \b0 varchar\par
+\f0\lang1033\tab\f1\lang9 (5) Lists the number of Medicare patients treated for Heart Failure.\par
+41. \b Footnote - Hospital 30-Day Readmission Rates from Heart Failure:\b0  Lists the footnote\par
+\f0\lang1033\tab\f1\lang9 value when appropriate, as related to the Heart Failure Outcome of Care at the \f0\lang1033\tab\f1\lang9 hospital.\par
+42. \b Hospital 30-Day Readmission Rates from Pneumonia: \b0 Lists the risk adjusted rate\par
+\f0\lang1033\tab\f1\lang9 (percentage) for each hospital.\par
+43. \b Comparison to U.S. Rate - Hospital 30-Day Readmission Rates from Pneumonia:\par
+
+\pard\li720\sa200\sl276\slmult1\b0 varchar (50) Lists the mortality and readmission category in which the hospital falls. The\par
+values are:\par
+\tab\bullet  Better than U.S. National Average\par
+\tab\bullet  No Different than U.S. National Average\par
+\tab\bullet  Worse than U.S. National Average\par
+\tab\bullet  Number of Cases too Small*\par
+
+\pard\sa200\sl276\slmult1 44. \b Lower Readmission Estimate - Hospital 30-Day Readmission Rates from Pneumonia:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the lower bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+45. \b Upper Readmission Estimate - Hospital 30-Day Readmission Rates from Pneumonia:\par
+\b0\f0\lang1033\tab\f1\lang9 Lists the upper bound (Interval Estimate) for each hospital\rquote s risk-adjusted rate.\par
+46. \b Number of Patients - Hospital 30-Day Readmission Rates from Pneumonia:\b0  varchar\par
+\f0\lang1033\tab\f1\lang9 (5) Lists the number of Medicare patients treated for Pneumonia.\par
+47. \b Footnote - Hospital 30-Day Readmission Rates from Pneumonia:\b0  Lists the footnote\par
+value when appropriate, as related to the Pneumonia Outcome of Care at the hospital\par
+\par
+\f0\par
+}
+ 
