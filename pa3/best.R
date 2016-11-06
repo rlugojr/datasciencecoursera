@@ -36,8 +36,8 @@ best <- function(abbrState = NULL, outcomeName = NULL){
         stop("invalid outcome")
     }
     else {
-      #set value to valid value format.
-      outcomeName = Outcomes[tolower(Outcomes) == tolower(outcomeName)]
+        #set value to valid value format.
+        outcomeName = Outcomes[tolower(Outcomes) == tolower(outcomeName)]
     }
 
     #get subset of dataset by State parameter value
@@ -46,7 +46,7 @@ best <- function(abbrState = NULL, outcomeName = NULL){
     #set name of dataset column using outcomeName value
     outcomeCol = paste("Hospital.30.Day.Death..Mortality..Rates.from.", gsub(" ",".",outcomeName), sep = "")
 
-    #create data frame limited to the hospital name and outcomeName columns
+    #create dataframe limited to the hospital name and outcomeName columns
     hospital_outcome <- data.frame(state_obs["Hospital.Name"], state_obs[eval(outcomeCol)], stringsAsFactors = FALSE)
 
     #remove rows with incomplete cases
